@@ -1,0 +1,52 @@
+@tailwind base;
+
+@tailwind components;
+@layer components {
+  .para-headers {
+    @apply font-titles sm:text-lg mobile:text-xl tablet:text-3xl 
+  }
+  .component-design {
+    @apply sm:px-2 mobile:px-5 tablet:px-3 
+  }
+  .para-text {
+    @apply sm:text-base mobile:text-base tablet:text-base laptop:text-lg desktop:text-lg
+  }
+  .imageT {
+    @apply before:absolute before:content-[""] before:w-[55%] before:h-[45%] before:top-[20px] sm:before:right-0 tablet:before:-right-[0px] before:z-1 before:border-r-[20px] before:border-gold before:border-t-[20px]  
+  }
+  .imageB {
+    @apply after:absolute after:content-[""] after:w-[55%] after:h-[45%] after:bottom-[20px] sm:after:left-0 tablet:after:-left-[0px] after:z-1 after:border-l-[20px] after:border-gold after:border-b-[20px] 
+  }
+  .button {
+    @apply sm:text-xsm desktop:text-base border-2 border-gold bg-gold text-black
+  }
+  .footer-titles {
+    @apply font-titles sm:text-sm mobile:text-base tablet:text-xl desktop:text-2xl
+  }
+  .page-titles {
+    @apply font-titles text-gold sm:text-xl mobile:text-3xl tablet:text-4xl desktop:text-6xl
+  }
+  .para-font {
+    @apply text-[#AAAAAA] font-para font-light text-base 
+  }
+  .menu {
+    @apply flex flex-row sm:justify-center w-full laptop:justify-between
+  }
+  .bg-settings {
+    @apply bg-image bg-center bg-no-repeat bg-cover
+  }
+}
+@tailwind utilities;
+
+@font-face {
+  font-family: "titles";
+  src: url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+}
+@font-face {
+  font-family: "para";
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+}
+@font-face {
+  font-family: "signiture";
+  src: url('https://fonts.cdnfonts.com/css/bestermind');
+}
