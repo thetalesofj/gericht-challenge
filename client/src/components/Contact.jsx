@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className=''>
                     <p className='text-white sm:py-2 tablet:py-4 tablet:text-left desktop:text-xl'>Contact</p>
                     <div className='flex justify-center items-center tablet:justify-start'>
-                        <img className='w-6 tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
                     </div>
                     <p className='text-gold font-normal sm:text-4xl desktop:text-6xl sm:px-5 tablet:px-0 tablet:text-left'>Find Us</p>
                     <p className='para-font sm:px-10 sm:py-4 tablet:py-4 tablet:px-0 tablet:text-left'>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG</p>

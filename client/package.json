@@ -1,12 +1,14 @@
 {
   "name": "client",
+  "author": "Jeremiah Haastrup",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "npm run build && vite preview"
   },
   "dependencies": {
     "npm-check": "^6.0.1",

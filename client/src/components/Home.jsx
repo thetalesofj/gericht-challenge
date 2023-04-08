@@ -10,13 +10,13 @@ const Home = () => {
         <div className='font-titles flex flex-wrap sm:px-3 sm:justify-center sm:items-center tablet:justify-between'>
             <div className='hidden tablet:flex overflow-hidden w-1/7 tablet:-rotate-90 tablet:gap-5 text-sm -mx-5 '>
                 <p>#Bar</p>
-                <p>#Gericht</p>
+                <p>#GERÍCHT</p>
             </div>
             <div className='flex flex-col items-center text-center tablet:w-2/5 tablet:justify-between'>
                 <div className='tablet:w-full'>
                     <p className='sm:py-2 tablet:py-4 tablet:text-left desktop:text-xl'>Chase the new Flavour</p>
                     <div className='flex justify-center items-center tablet:justify-start'>
-                        <img className='w-6 tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
                     </div>
                     <p className='text-gold font-normal sm:text-4xl desktop:text-6xl sm:px-5 tablet:px-0 tablet:text-left'> The Key To Fine Dining</p>
                     <p className='para-font sm:px-10 sm:py-4 tablet:py-4 tablet:px-0 tablet:text-left'>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus</p>

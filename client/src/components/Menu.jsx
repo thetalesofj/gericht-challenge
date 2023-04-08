@@ -9,7 +9,7 @@ const Menu = () => {
         <div className='flex flex-col items-center justify-center pt-2 space-y-2'>
             <div className='text-base font-titles'>Menu that fits you palatte</div>
             <div className='flex justify-center items-center laptop:justify-start'>
-                <img className='w-6' src={VectorSpoon} alt="" />
+                <img src={VectorSpoon} alt="" />
             </div>
             <div className='page-titles pb-10 laptop:pb-14'>Today's Special</div>
         </div>

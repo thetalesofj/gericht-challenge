@@ -18,7 +18,7 @@ const Awards = () => {
                 <div className='text-white sm:w-3/4 tablet:w-1/2 laptop:w-1/2 flex flex-col justify-center items-center laptop:items-start desktop:space-y-10'>
                     <div className=''>
                         <div className='font-titles'>Awards & Recognition</div>
-                        <img className='w-6 tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
                         <div className='page-titles mobile:text-2xl tablet:text-4xl'>Our Laurels</div>
                     </div>
                     <div>

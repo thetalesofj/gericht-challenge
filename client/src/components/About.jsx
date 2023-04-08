@@ -10,7 +10,7 @@ const About = () => {
           <div className='flex flex-col sm:items-center laptop:items-end justify-center sm:text-center sm:space-y-3 laptop:text-right z-10'>
               <div className='page-titles'>About Us</div>
               <div className='flex justify-center items-center laptop:justify-start'>
-                <img className='w-6 laptop:object-left' src={VectorSpoon} alt="" />
+                <img className='laptop:object-left' src={VectorSpoon} alt="" />
               </div>
               <div className='para-font laptop:pl-10 desktop:pl-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</div>
               <button className='button font-titles p-2'>Know More</button>
@@ -22,7 +22,7 @@ const About = () => {
         <div className='flex flex-col sm:items-center laptop:items-start justify-center sm:text-center sm:space-y-3 laptop:text-left z-10'>
           <div className='page-titles'>Our History</div>
           <div className='flex justify-center items-center laptop:justify-start'>
-            <img className='w-6 laptop:object-left' src={VectorSpoon} alt="" />
+            <img className='laptop:object-left' src={VectorSpoon} alt="" />
           </div>
           <div className='para-font laptop:pr-10 desktop:pr-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</div>
           <button className='button font-titles p-2'>Know More</button>

@@ -11,7 +11,7 @@ const Photo = () => {
     <div className='text-white bg-settings flex py-10 sm:flex-col laptop:flex-row sm:items-center sm:justify-center'>
        <div className='flex flex-col sm:items-center sm:justify-center sm:px-4 tablet:px-32 laptop:items-start'>
           <div className='font-titles'>Instagram</div>
-          <img className='w-6 tablet:object-left' src={VectorSpoon} alt="" />
+          <img className='tablet:object-left' src={VectorSpoon} alt="" />
           <div className='page-titles mobile:text-2xl tablet:text-4xl'>Photo Gallery</div>
           <p className='para-font sm:text-center sm:py-4 tablet:py-4 tablet:px-0 laptop:text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu</p>
           <button className='button p-2'>View More</button>
