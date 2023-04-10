@@ -10,7 +10,7 @@
 
 ## Overview
 
-This project was developed for a Front-End Developers competition, using React, Vite, and Tailwind. The app allowed me to evelate my knowledge and skills with React and Tailwind, whilst also providing an opportunity to learn about Vite as a faster and more efficient alternative to Create-React-App.
+This project was developed for a Front-End Developers competition, using React, Vite, and Tailwind. The app allowed me to elevate my knowledge and skills with React and Tailwind, whilst also providing an opportunity to learn about Vite as a faster and more efficient alternative to Create-React-App.
 
 The React library was utilized to build the app's user interface, allowing for reusable components and efficient rendering of content. Tailwind was used for styling the app, offering a comprehensive set of pre-defined styles and a customizable design system. Vite was chosen as the development tool to improve the app's build and development times, providing a faster alternative to Create-React-App.
 
