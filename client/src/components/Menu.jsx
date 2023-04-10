@@ -71,7 +71,7 @@ const Menu = () => {
             <div className='laptop:ml-[50px] desktop:ml-[70px] flex flex-col space-y-2 items-center justify-center'>
                 <img className='w-3/4 tablet:w-2/4 laptop:w-3/4' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/Shaker_yl5new.jpg' alt="" />
                 <div className='sm:pt-5'>
-                    <button className='button py-1 px-3'>View More</button>
+                    <button className='button font-titles py-1 px-3'>View More</button>
                 </div>
             </div>
             <div className='flex flex-col sm:items-center'>

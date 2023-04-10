@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
             </section>
         </div>
-        <div className='text-white flex sm:flex-col sm:space-y-5 mobile:space-y-8 items-center sm:justify-center sm:pt-5 tablet:flex-row tablet:justify-between tablet:px-5'>
+        <div className='text-white flex sm:flex-col sm:space-y-5 mobile:space-y-8 items-center sm:justify-center sm:pt-5 tablet:flex-row tablet:justify-between tablet:px-5 desktop:px-20'>
             <div className='flex flex-col justify-center items-center text-xsm text-center'>
                 <div className='footer-titles'>Contact Us</div>
                 <div className='py-2'>
@@ -60,7 +60,6 @@ const Footer = () => {
                         <a href="/"><SlSocialInstagram/></a>
                     </div>
                 </div>
-                
             </div>
                 <div className='flex flex-col items-center justify-center text-center'>
                     <div className='footer-titles pb-2'>Working Hours</div>

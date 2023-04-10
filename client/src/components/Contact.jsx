@@ -17,9 +17,9 @@ const Contact = () => {
                       <p className='text-white para-font sm:text-center tablet:text-left sm:text-xsm text-sm'>Mon - Fri: 10:00 am - 02:00 am</p>
                       <p className='text-white para-font sm:text-center tablet:text-left sm:text-xsm text-sm'>Sat - Sun: 10:00 am - 03:00 am</p>
                     </div>
-                </div>
-                <div className='tablet:w-full tablet:flex tablet:justify-start py-10'>
-                    <p className='button py-2 sm:px-4 sm:text-xsm'>View More</p>
+                    <div className='tablet:flex tablet:justify-start py-10'>
+                      <button className='button p-2'>View More</button>
+                    </div>
                 </div>
             </div>
             <div className='flex justify-center items-center w-3/5 laptop:w-[45%]'>
