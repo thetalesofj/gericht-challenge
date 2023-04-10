@@ -1,7 +1,5 @@
 import React from 'react';
 import Navigation from './Navigation';
-import Fish from '../assets/fish.jpg';
-import VectorSpoon from '../assets/VectorSpoon.jpg'
 
 const Home = () => {
   return (
@@ -16,7 +14,7 @@ const Home = () => {
                 <div className='tablet:w-full'>
                     <p className='sm:py-2 tablet:py-4 tablet:text-left desktop:text-xl'>Chase the new Flavour</p>
                     <div className='flex justify-center items-center tablet:justify-start'>
-                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/VectorSpoon_b7psvy.jpg' alt="" />
                     </div>
                     <p className='text-gold font-normal sm:text-4xl desktop:text-6xl sm:px-5 tablet:px-0 tablet:text-left'> The Key To Fine Dining</p>
                     <p className='para-font sm:px-10 sm:py-4 tablet:py-4 tablet:px-0 tablet:text-left'>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus</p>
@@ -27,7 +25,7 @@ const Home = () => {
             </div>
             <div className='flex justify-center items-center tablet:w-2/5'>
                 <div className='imageT imageB flex justify-center tablet:justify-start w-full relative'>
-                    <img className='sm:py-5 w-full' src={Fish} alt="" />
+                    <img className='sm:py-5 w-full' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127550/GERICHT%20-%20CHALLENGE%20FOLDER/fish_mmwfdb.jpg' alt="" />
                 </div>
             </div>
         </div>

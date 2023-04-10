@@ -41,7 +41,7 @@ module.exports = {
         'gold': '#DCCA87'
       },
       backgroundImage: {
-        'image': "url('./assets/background.jpg')"
+        'image': "url('https://res.cloudinary.com/drecxkgks/image/upload/v1681127550/GERICHT%20-%20CHALLENGE%20FOLDER/background_ix1odl.jpg')"
       },
       zIndex: {
         '1': '1',

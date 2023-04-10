@@ -1,7 +1,4 @@
 import React from 'react';
-import VectorSpoon from '../assets/VectorSpoon.jpg';
-import Shaker from '../assets/Shaker.jpg'
-
 
 const Menu = () => {
   return (
@@ -9,7 +6,7 @@ const Menu = () => {
         <div className='flex flex-col items-center justify-center pt-2 space-y-2'>
             <div className='text-base font-titles'>Menu that fits you palatte</div>
             <div className='flex justify-center items-center laptop:justify-start'>
-                <img src={VectorSpoon} alt="" />
+                <img src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/VectorSpoon_b7psvy.jpg' alt="" />
             </div>
             <div className='page-titles pb-10 laptop:pb-14'>Today's Special</div>
         </div>
@@ -72,7 +69,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className='laptop:ml-[50px] desktop:ml-[70px] flex flex-col space-y-2 items-center justify-center'>
-                <img className='w-3/4 tablet:w-2/4 laptop:w-3/4' src={Shaker} alt="" />
+                <img className='w-3/4 tablet:w-2/4 laptop:w-3/4' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/Shaker_yl5new.jpg' alt="" />
                 <div className='sm:pt-5'>
                     <button className='button py-1 px-3'>View More</button>
                 </div>

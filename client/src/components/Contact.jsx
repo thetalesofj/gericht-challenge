@@ -1,6 +1,4 @@
 import React from 'react'
-import Drink from '../assets/drink.jpg'
-import VectorSpoon from '../assets/VectorSpoon.jpg'
 
 const Contact = () => {
   return (
@@ -10,7 +8,7 @@ const Contact = () => {
                 <div className=''>
                     <p className='text-white sm:py-2 tablet:py-4 tablet:text-left desktop:text-xl'>Contact</p>
                     <div className='flex justify-center items-center tablet:justify-start'>
-                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/VectorSpoon_b7psvy.jpg' alt="" />
                     </div>
                     <p className='text-gold font-normal sm:text-4xl desktop:text-6xl sm:px-5 tablet:px-0 tablet:text-left'>Find Us</p>
                     <p className='para-font sm:px-10 sm:py-4 tablet:py-4 tablet:px-0 tablet:text-left'>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG</p>
@@ -26,7 +24,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center items-center w-3/5 laptop:w-[45%]'>
                 <div className='imageT imageB flex justify-center tablet:justify-start w-full relative'>
-                    <img className='sm:py-5 w-full' src={Drink} alt="" />
+                    <img className='sm:py-5 w-full' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127548/GERICHT%20-%20CHALLENGE%20FOLDER/drinks_dlz2s7.jpg' alt="" />
                 </div>
             </div>
         </div>

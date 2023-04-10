@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from 'react'
 import {SlSocialFacebook, SlSocialTwitter, SlSocialInstagram} from 'react-icons/sl'
-import VectorSpoon from '../assets/VectorSpoon.jpg'
 
 const Footer = () => {
 
@@ -29,7 +28,7 @@ const Footer = () => {
             <section className='border-[1px] border-gray-600 flex justify-center text-center items-center flex-col text-white sm:w-[75%] sm:px-10 w-[50%] space-y-2 bg-[#0C0C0C] py-4'>
                 <div className='font-titles text-sm tablet:text-base'>Newsletter</div>
                 <div className='flex justify-center items-center tablet:justify-start'>
-                    <img className='tablet:object-left' src={VectorSpoon} alt="" />
+                    <img className='tablet:object-left' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/VectorSpoon_b7psvy.jpg' alt="" />
                 </div>
                 <div className='font-titles page-titles'>Subscribe To Our Newsletter</div>
                 <div className='sm:text-xsm font-thin tablet:text-sm sm:pb-5 tablet:pb-7'>And never miss latest Updates!</div>
@@ -53,7 +52,7 @@ const Footer = () => {
                 <div className='flex flex-col items-center justify-center space-y-2 tablet:space-y-4'>
                     <div className='w-3/4 text-center text-xsm'>"The best way to find yourself is to lose yourself in the service of others"</div>
                     <div className='flex justify-center items-center tablet:justify-start'>
-                        <img className='tablet:object-left' src={VectorSpoon} alt="" />
+                        <img className='tablet:object-left' src='https://res.cloudinary.com/drecxkgks/image/upload/v1681127552/GERICHT%20-%20CHALLENGE%20FOLDER/VectorSpoon_b7psvy.jpg' alt="" />
                     </div>
                     <div className='flex flex-row space-x-2 tablet:space-x-4'>
                         <a href="/"><SlSocialFacebook/></a>
